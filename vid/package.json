@@ -2,6 +2,10 @@
   "name": "vid",
   "version": "1.0.0",
   "description": "App to add notes or memos.",
+  "engines":{
+    "node": "6.11.5",
+    "npm":"3.10.10",
+  },
   "main": "app.js",
   "scripts": {
     "test": "node app.js"
