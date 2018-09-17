@@ -1,10 +1,10 @@
 {
   "name": "vid",
   "version": "1.0.0",
-  "description": "App to create video or any ideas",
+  "description": "App to add notes or memos.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "author": "govind",
   "license": "ISC",
