@@ -3,11 +3,13 @@ const exphbs = require('express-handlebars');
 const methodOverride = require('method-override');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-
+const port = process.env.PORT || 5000;
 const app = express();
+const db = require('./database')
+mongoose.Promise = global.Promise;
 
-const port = 5000;
-mongoose.connect('mongodb://localhost/vid-dev',{
+
+mongoose.connect(db.mongoURI,{
 	
 
 })
